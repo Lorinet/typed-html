@@ -12,8 +12,8 @@ use htmlescape::encode_minimal;
 /// # Examples
 ///
 /// ```
-/// # use axohtml::html;
-/// # use axohtml::dom::DOMTree;
+/// # use typed_html::html;
+/// # use typed_html::dom::DOMTree;
 /// # fn main() {
 /// let tree: DOMTree<String> = html!(
 ///     <div class="hello">

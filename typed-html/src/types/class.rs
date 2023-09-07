@@ -26,7 +26,7 @@ impl Class {
         let s = s.borrow();
         Self::from_str(s).unwrap_or_else(|err| {
             panic!(
-                "axohtml::types::Class: {:?} is not a valid class name: {}",
+                "typed_html::types::Class: {:?} is not a valid class name: {}",
                 s, err
             )
         })
